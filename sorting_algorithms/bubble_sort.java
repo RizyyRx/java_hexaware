@@ -6,6 +6,10 @@
  * Advantages - Simple to understand and implement, Good for small datasets, Easy to detect if the list is already sorted
  * Disadvantages - Very inefficient on large datasets, Performance degrades quickly as input size increases
  * When to use - Small input sizes, Educational purposes
+ * 
+ * Time comp:
+ * Best Case	O(n)	Array is already sorted, only one pass needed.
+ * Worst case   O(n2)   Array is reversely or randomly sorted.
  *  */
 
 // class
